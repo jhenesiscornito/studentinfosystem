@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/middleware.js"],"sourcesContent":["export { default } from \"next-auth/middleware\";\r\n\r\nexport const config = { matcher: [\"/dashboard\"] };"],"names":[],"mappings":";;;;AAEO,MAAM,SAAS;IAAE,SAAS;QAAC;KAAa;AAAC"}},
+    {"offset": {"line": 32, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
