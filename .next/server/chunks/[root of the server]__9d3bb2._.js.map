@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Dell/Desktop/studentinfosystem/app/api/register/route.js"],"sourcesContent":["import { NextResponse } from \"next/server\";\r\n\r\nexport async function POST(req) {\r\n    try {\r\n        const {name, email, password} = await req.json();\r\n\r\n        console.log(\"Name: \", name);\r\n        console.log(\"Email: \", email);\r\n        console.log(\"Password: \", password);\r\n        \r\n        return NextResponse.json({message: \"User is registered.\"}, { status:201 })\r\n    } catch (error) {\r\n        return NextResponse.json({message: \"There was an error while registering the user.\"}, { status:500 })\r\n    }\r\n}"],"names":[],"mappings":";;;AAAA;;AAEO,eAAe,KAAK,GAAG;IAC1B,IAAI;QACA,MAAM,EAAC,IAAI,EAAE,KAAK,EAAE,QAAQ,EAAC,GAAG,MAAM,IAAI,IAAI;QAE9C,QAAQ,GAAG,CAAC,UAAU;QACtB,QAAQ,GAAG,CAAC,WAAW;QACvB,QAAQ,GAAG,CAAC,cAAc;QAE1B,OAAO,gIAAA,CAAA,eAAY,CAAC,IAAI,CAAC;YAAC,SAAS;QAAqB,GAAG;YAAE,QAAO;QAAI;IAC5E,EAAE,OAAO,OAAO;QACZ,OAAO,gIAAA,CAAA,eAAY,CAAC,IAAI,CAAC;YAAC,SAAS;QAAgD,GAAG;YAAE,QAAO;QAAI;IACvG;AACJ"}},
-    {"offset": {"line": 79, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

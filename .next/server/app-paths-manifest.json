@@ -1,8 +1,7 @@
 {
   "/page": "app/page.js",
   "/dashboard/page": "app/dashboard/page.js",
+  "/api/topics/route": "app/api/topics/route.js",
   "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
-  "/addStudent/page": "app/addStudent/page.js",
-  "/editStudent/[id]/page": "app/editStudent/[id]/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/addTopic/page": "app/addTopic/page.js"
 }

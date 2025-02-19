@@ -8,7 +8,7 @@
     {"offset": {"line": 29, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
     {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
     {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
-    {"offset": {"line": 45, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Dell/Desktop/studentinfosystem/app/dashboard/page.jsx"],"sourcesContent":["import UserInfo from \"@/components/UserInfo\";\r\n\r\nexport default function Dashboard() {\r\n    return <UserInfo/>;\r\n}"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACpB,qBAAO,8OAAC,uHAAA,CAAA,UAAQ;;;;;AACpB"}},
+    {"offset": {"line": 45, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Dell/Desktop/studentinfosystem/app/dashboard/page.jsx"],"sourcesContent":["import UserInfo from \"@/components/UserInfo\";\r\n\r\nexport default function Dashboard() {\r\n  return <UserInfo />;\r\n}"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACtB,qBAAO,8OAAC,uHAAA,CAAA,UAAQ;;;;;AAClB"}},
     {"offset": {"line": 59, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
     {"offset": {"line": 70, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
     {"offset": {"line": 70, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},

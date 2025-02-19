@@ -19,7 +19,7 @@ function UserInfo() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "grid place-items-center h-screen",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "shadow-lg p-8 bg-zinc-300/10 flex flex-col gap-2 my-6",
+            className: "shadow-lg p-8 bg-zince-300/10 flex flex-col gap-2 my-6",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     children: [
@@ -30,13 +30,13 @@ function UserInfo() {
                         }, void 0, false, {
                             fileName: "[project]/components/UserInfo.jsx",
                             lineNumber: 13,
-                            columnNumber: 27
+                            columnNumber: 17
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/UserInfo.jsx",
                     lineNumber: 12,
-                    columnNumber: 17
+                    columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     children: [
@@ -47,33 +47,33 @@ function UserInfo() {
                         }, void 0, false, {
                             fileName: "[project]/components/UserInfo.jsx",
                             lineNumber: 16,
-                            columnNumber: 28
+                            columnNumber: 18
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/UserInfo.jsx",
                     lineNumber: 15,
-                    columnNumber: 17
+                    columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                     onClick: ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$react$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["signOut"])(),
-                    className: "bg-red-600 text-white font-bold px-6 py-2 mt-3",
-                    children: "Logout"
+                    className: "bg-red-500 text-white font-bold px-6 py-2 mt-3",
+                    children: "Log Out"
                 }, void 0, false, {
                     fileName: "[project]/components/UserInfo.jsx",
                     lineNumber: 18,
-                    columnNumber: 17
+                    columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/UserInfo.jsx",
             lineNumber: 11,
-            columnNumber: 13
+            columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/UserInfo.jsx",
         lineNumber: 10,
-        columnNumber: 9
+        columnNumber: 5
     }, this);
 }
 }}),

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 135, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Dell/Desktop/studentinfosystem/app/api/auth/%5B...nextauth%5D/route.js"],"sourcesContent":["import NextAuth from \"next-auth/next\";\r\nimport CredentialsProvider  from \"next-auth/providers/credentials\";\r\n\r\nconst authOptions = {\r\n    providers: [\r\n        CredentialsProvider ({\r\n            name: \"credentials\",\r\n            credentials: {},\r\n\r\n            async authorize(credentials) {\r\n                const user = { id: \"1\" };\r\n                return null;\r\n            },\r\n        }),\r\n    ],\r\n    session: {\r\n        strategy: \"jwt\",\r\n    },\r\n    secret: process.env.NEXTAUTH_SECRET,\r\n    pages: {\r\n        signIn: \"/\",\r\n    },\r\n};\r\n\r\nconst handler = NextAuth(authOptions);\r\n\r\nexport { handler as GET, handler as POST };"],"names":[],"mappings":";;;;AAAA;AACA;;;AAEA,MAAM,cAAc;IAChB,WAAW;QACP,CAAA,GAAA,0JAAA,CAAA,UAAmB,AAAD,EAAG;YACjB,MAAM;YACN,aAAa,CAAC;YAEd,MAAM,WAAU,WAAW;gBACvB,MAAM,OAAO;oBAAE,IAAI;gBAAI;gBACvB,OAAO;YACX;QACJ;KACH;IACD,SAAS;QACL,UAAU;IACd;IACA,QAAQ,QAAQ,GAAG,CAAC,eAAe;IACnC,OAAO;QACH,QAAQ;IACZ;AACJ;AAEA,MAAM,UAAU,CAAA,GAAA,+IAAA,CAAA,UAAQ,AAAD,EAAE"}},
-    {"offset": {"line": 166, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

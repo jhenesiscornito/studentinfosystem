@@ -124,18 +124,19 @@ module.exports = mod;
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, z: __turbopack_require_stub__ } = __turbopack_context__;
 {
 __turbopack_esm__({
-    "connectMongoDB": (()=>connectMongoDB)
+    "default": (()=>__TURBOPACK__default__export__)
 });
 var __TURBOPACK__imported__module__$5b$externals$5d2f$mongoose__$5b$external$5d$__$28$mongoose$2c$__cjs$29$__ = __turbopack_import__("[externals]/mongoose [external] (mongoose, cjs)");
 ;
 const connectMongoDB = async ()=>{
     try {
         await __TURBOPACK__imported__module__$5b$externals$5d2f$mongoose__$5b$external$5d$__$28$mongoose$2c$__cjs$29$__["default"].connect(process.env.MONGODB_URI);
-        console.log("Connected to MongoDB");
+        console.log("Connected to MongoDB.");
     } catch (error) {
-        console.log("Error connecting to MongoDB: ", error);
+        console.log(error);
     }
 };
+const __TURBOPACK__default__export__ = connectMongoDB;
 }}),
 "[project]/models/user.js [app-rsc] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
@@ -194,7 +195,7 @@ const authOptions = {
             async authorize (credentials) {
                 const { email, password } = credentials;
                 try {
-                    await (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$mongodb$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["connectMongoDB"])();
+                    await (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$mongodb$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"])();
                     const user = await __TURBOPACK__imported__module__$5b$project$5d2f$models$2f$user$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].findOne({
                         email
                     });
