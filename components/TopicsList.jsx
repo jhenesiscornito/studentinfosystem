@@ -48,7 +48,7 @@
 //   );
 // }
 
-"use client";
+// "use client";
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
@@ -65,7 +65,7 @@ export default function TopicsList() {
         const res = await fetch("/api/topics", { cache: "no-store" });
 
         if (!res.ok) {
-          throw new Error("Failed to fetch topics");
+          throw new Error("Failed to fetch student information");
         }
 
         const data = await res.json();
@@ -78,7 +78,7 @@ export default function TopicsList() {
     fetchTopics();
   }, []);
 
-  if (error) return <p className="text-red-500">Error loading topics: {error}</p>;
+  if (error) return <p className="text-red-500">Error loading student information: {error}</p>;
 
   return (
     <>
@@ -86,7 +86,7 @@ export default function TopicsList() {
         topics.map((t) => (
           <div
             key={t._id}
-            className="p-4 border my-3 flex justify-between gap-5 items-start shadow-lg rounded-lg border-t-4 border-green-400"
+            className="p-4 border my-3 flex justify-between gap-5 items-start shadow-lg rounded-lg border-t-4 border-green-400 mt-8"
           >
             <div>
               <h2 className="font-bold text-2xl">{t.title}</h2>
@@ -105,7 +105,7 @@ export default function TopicsList() {
           </div>
         ))
       ) : (
-        <p className="text-gray-500">No topics available.</p>
+        <p className="text-gray-500 mt-8">No student information available.</p>
       )}
     </>
   );
