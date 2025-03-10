@@ -2,6 +2,6 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/middleware.js"],"sourcesContent":["export { default } from \"next-auth/middleware\";\r\n\r\nexport const config = { matcher: [\"/dashboard\"] };"],"names":[],"mappings":";;;;AAEO,MAAM,SAAS;IAAE,SAAS;QAAC;KAAa;AAAC"}},
-    {"offset": {"line": 32, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/middleware.js"],"sourcesContent":["export { default } from \"next-auth/middleware\";\r\nimport { NextResponse } from \"next/server\";\r\n\r\nexport function middleware(req) {\r\n  const res = NextResponse.next();\r\n  res.headers.append(\"Access-Control-Allow-Origin\", \"*\");\r\n  res.headers.append(\"Access-Control-Allow-Methods\", \"GET, POST, PUT, DELETE\");\r\n  res.headers.append(\"Access-Control-Allow-Headers\", \"Content-Type\");\r\n  return res;\r\n}\r\n\r\nexport const config = { \r\n    matcher: [\"/dashboard\"],\r\n    matcher: [\"/api/:path*\"],\r\n};"],"names":[],"mappings":";;;;AACA;;;AAEO,SAAS,WAAW,GAAG;IAC5B,MAAM,MAAM,qLAAA,CAAA,eAAY,CAAC,IAAI;IAC7B,IAAI,OAAO,CAAC,MAAM,CAAC,+BAA+B;IAClD,IAAI,OAAO,CAAC,MAAM,CAAC,gCAAgC;IACnD,IAAI,OAAO,CAAC,MAAM,CAAC,gCAAgC;IACnD,OAAO;AACT;AAEO,MAAM,SAAS;IAClB,SAAS;QAAC;KAAa;IACvB,SAAS;QAAC;KAAc;AAC5B"}},
+    {"offset": {"line": 45, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
 }
